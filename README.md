@@ -18,8 +18,6 @@ I spent 7+ years writing for a living: taglines, TV and radio scripts, SEO conte
 
 So now I'm learning to build the systems behind the words: data pipelines, warehouses, and databases designed to mirror how a living, breathing business actually operates.
 
-**We're not starting over, we're starting smarter.**
-
 ## Currently
 
 * Data Engineering Scholar at **FTW Foundation** (Batch 12): SQL, data modeling, and Databricks, one Saturday at a time
@@ -163,5 +161,5 @@ So now I'm learning to build the systems behind the words: data pipelines, wareh
 
 ## Let's Connect
 
-* [LinkedIn: czekinah](https://www.linkedin.com/in/czekinah/), where the weekly journey posts live
+* [LinkedIn: czekinah](https://www.linkedin.com/in/czekinah/)
 * [tolentino.czekinah@gmail.com](mailto:tolentino.czekinah@gmail.com)
