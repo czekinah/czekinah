@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img" aria-labelledby="t">
+<title id="t">Purr-cade: two tiny cat games at czekinah.github.io/games</title>
+<style>
+  text { font-family: 'IBM Plex Sans','Segoe UI',Arial,sans-serif; }
+  .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  .disp { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  
+  .tail { transform-origin: 0px 0px; animation: wag 1.6s ease-in-out infinite; }
+  @keyframes wag { 0%,100% { transform: translate(-34px,26px) rotate(-8deg);} 50% { transform: translate(-34px,26px) rotate(14deg);} }
+  .eyes { animation: blink 4.5s infinite; transform-origin: center; }
+  @keyframes blink { 0%,92%,100% { transform: scaleY(1);} 95% { transform: scaleY(0.1);} }
+  .ear2 { transform-origin: 24px -30px; animation: twitch 5s infinite; }
+  @keyframes twitch { 0%,88%,100% { transform: rotate(0);} 91% { transform: rotate(-14deg);} 94% { transform: rotate(0);} }
+
+  .bulb { animation: chase 1.2s step-end infinite; }
+  @keyframes chase { 0%,100% { opacity: 1; } 33% { opacity: 0.25; } 66% { opacity: 0.6; } }
+  .runner { animation: hop 1.4s ease-in-out infinite; }
+  @keyframes hop { 0%,55%,100% { transform: translateY(0); } 25% { transform: translateY(-26px); } }
+  .cuke { animation: cuke 1.4s linear infinite; }
+  @keyframes cuke { from { transform: translateX(96px); } to { transform: translateX(-190px); } }
+  .q { opacity: 0; animation: qcycle 6s step-end infinite; }
+  @keyframes qcycle { 0% { opacity: 1; } 33.3% { opacity: 0; } 100% { opacity: 0; } }
+  .qcaret { animation: caretblink 0.8s step-end infinite; }
+  @keyframes caretblink { 50% { opacity: 0; } }
+  .coin { animation: coin 1.6s step-end infinite; }
+  @keyframes coin { 50% { opacity: 0.35; } }
+  .l1 { animation-delay: -0.4s; } .l2 { animation-delay: -0.8s; }
+  .q1 { animation-delay: 2s; } .q2 { animation-delay: 4s; }
+</style>
+
+<rect width="900" height="250" rx="14" fill="#0A1120"/>
+<rect x="40" y="20" width="820" height="210" rx="10" fill="#101B33" stroke="#1D2C4D" stroke-width="1.5" />
+<circle class="bulb l0" cx="56" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="85" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="114" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="143" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="172" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="201" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="230" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="259" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="288" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="317" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="346" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="375" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="404" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="433" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="462" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="491" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="520" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="549" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="578" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="607" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="636" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="665" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="694" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="723" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="752" cy="38" r="4" fill="#2BE3DF"/><circle class="bulb l1" cx="781" cy="38" r="4" fill="#5DFF87"/><circle class="bulb l2" cx="810" cy="38" r="4" fill="#4A82FF"/><circle class="bulb l0" cx="839" cy="38" r="4" fill="#2BE3DF"/>
+<text x="450" y="70" text-anchor="middle" font-size="26" font-weight="800" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">PURR-CADE</text>
+<text x="450" y="90" text-anchor="middle" font-size="12" fill="#8FA3C7" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">two tiny cat games. no install. runs in the browser at czekinah.github.io/games</text>
+
+<rect x="80" y="106" width="340" height="104" rx="10" fill="#050A16" stroke="#1D2C4D" stroke-width="2"/>
+<text x="96" y="128" font-size="12" font-weight="700" fill="#2BE3DF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">TABBY DASH</text>
+<text x="96" y="144" font-size="10.5" fill="#8FA3C7" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">jump the cucumbers. space or tap.</text>
+<line x1="96" y1="196" x2="404" y2="196" stroke="#8FA3C7" stroke-width="1.5"/>
+<g class="runner">
+<g transform="translate(130,168) scale(0.5)">
+  <g class="tail" transform="translate(-34,26)">
+    <path d="M0 0 C -22 -6, -30 -30, -8 -40" fill="none" stroke="#2BE3DF" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <rect x="-30" y="0" width="60" height="44" rx="14" fill="#2BE3DF"/>
+  <g class="head">
+    <rect x="-26" y="-34" width="52" height="42" rx="12" fill="#2BE3DF"/>
+    <polygon class="ear" points="-24,-30 -24,-48 -8,-34" fill="#2BE3DF"/>
+    <polygon class="ear ear2" points="24,-30 24,-48 8,-34" fill="#2BE3DF"/>
+    <g class="eyes">
+      <rect x="-15" y="-20" width="7" height="8" rx="2" fill="#0A1120"/>
+      <rect x="8" y="-20" width="7" height="8" rx="2" fill="#0A1120"/>
+    </g>
+    <path d="M-3 -8 L3 -8 L0 -4 Z" fill="#5DFF87"/>
+    <path d="M-9 -3 Q-4 1 0 -3 Q4 1 9 -3" fill="none" stroke="#0A1120" stroke-width="1.8" stroke-linecap="round"/>
+    <g stroke="#8FA3C7" stroke-width="1.4" stroke-linecap="round">
+      <line x1="-34" y1="-8" x2="-22" y2="-7"/><line x1="-34" y1="-2" x2="-22" y2="-4"/>
+      <line x1="34" y1="-8" x2="22" y2="-7"/><line x1="34" y1="-2" x2="22" y2="-4"/>
+    </g>
+  </g>
+  <rect x="-24" y="38" width="14" height="10" rx="4" fill="#2BE3DF"/>
+  <rect x="10" y="38" width="14" height="10" rx="4" fill="#2BE3DF"/>
+</g></g>
+<g class="cuke"><rect x="300" y="178" width="12" height="18" rx="6" fill="#5DFF87"/><rect x="303" y="181" width="3" height="3" rx="1.5" fill="#0A1120" opacity="0.5"/></g>
+<text class="score" x="396" y="128" text-anchor="end" font-size="12" font-weight="700" fill="#5DFF87" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">00420</text>
+
+<rect x="480" y="106" width="340" height="104" rx="10" fill="#050A16" stroke="#1D2C4D" stroke-width="2"/>
+<text x="496" y="128" font-size="12" font-weight="700" fill="#2BE3DF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">SQL SCRATCHING POST</text>
+<text x="496" y="144" font-size="10.5" fill="#8FA3C7" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">10 questions. 100 pts each. earn a title.</text>
+<text class="q q0" x="496" y="170" font-size="11" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">SELECT name FROM cats WHERE naps &gt; 3;</text>
+<text class="q q1" x="496" y="170" font-size="11" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">JOIN treats t ON t.cat_id = c.id</text>
+<text class="q q2" x="496" y="170" font-size="11" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">GROUP BY mood HAVING COUNT(*) &gt; 9</text>
+<rect class="qcaret" x="496" y="178" width="8" height="12" fill="#2BE3DF"/>
+<text x="496" y="200" font-size="10.5" fill="#5DFF87" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">title unlocked: Senior Purr-gineer</text>
+
+<rect class="coin" x="330" y="222" width="240" height="18" rx="9" fill="#2BE3DF"/>
+<text class="coin" x="450" y="235" text-anchor="middle" font-size="11" font-weight="800" fill="#062326" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">INSERT COIN  ·  CLICK TO PLAY</text>
+
+</svg>
