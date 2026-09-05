@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 242" width="900" height="242" role="img" aria-labelledby="t">
+<title id="t">Cat-alytics: a very serious dashboard of very serious numbers.</title>
+<style>
+  text { font-family: 'IBM Plex Sans','Segoe UI',Arial,sans-serif; }
+  .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  .disp { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  
+  .bar { transform-origin: left center; transform: scaleX(0); animation: grow 1s cubic-bezier(.2,.8,.2,1) forwards, breathe 3s ease-in-out 2s infinite; }
+  @keyframes grow { to { transform: scaleX(1); } }
+  @keyframes breathe { 0%,100% { opacity: 1; } 50% { opacity: 0.72; } }
+  .val { opacity: 0; animation: fin 0.5s ease-out forwards; }
+  @keyframes fin { to { opacity: 1; } }
+  .led { animation: led 1.2s step-end infinite; }
+  @keyframes led { 50% { opacity: 0.25; } }
+  .b0 { animation-delay: 0.20s; } .v0 { animation-delay: 0.60s; }
+  .b1 { animation-delay: 0.38s; } .v1 { animation-delay: 0.78s; }
+  .b2 { animation-delay: 0.56s; } .v2 { animation-delay: 0.96s; }
+  .b3 { animation-delay: 0.74s; } .v3 { animation-delay: 1.14s; }
+  .b4 { animation-delay: 0.92s; } .v4 { animation-delay: 1.32s; }
+  .b5 { animation-delay: 1.10s; } .v5 { animation-delay: 1.50s; }
+</style>
+<rect width="900" height="242" rx="14" fill="#0A1120"/><rect x="40" y="20" width="820" height="202" rx="10" fill="#101B33" stroke="#1D2C4D" stroke-width="1.5" /><circle class="led" cx="64" cy="44" r="5" fill="#5DFF87"/><text x="78" y="49" class="mono" font-size="14" font-weight="700" fill="#E9F1FF">cat_alytics --live</text><text x="844" y="49" text-anchor="end" class="mono" font-size="12" fill="#8FA3C7">$ tail -f cat_metrics.log</text><text x="64" y="83" class="mono" font-size="13" fill="#8FA3C7">coffee_today</text><rect x="250" y="72" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b0" x="250" y="72" width="364" height="12" rx="6" fill="#2BE3DF"/><text class="val v0 mono" x="786" y="83" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">3.5 cups</text><text x="64" y="107" class="mono" font-size="13" fill="#8FA3C7">words_written</text><rect x="250" y="96" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b1" x="250" y="96" width="416" height="12" rx="6" fill="#4A82FF"/><text class="val v1 mono" x="786" y="107" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">2,400</text><text x="64" y="131" class="mono" font-size="13" fill="#8FA3C7">queries_run</text><rect x="250" y="120" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b2" x="250" y="120" width="176" height="12" rx="6" fill="#2BE3DF"/><text class="val v2 mono" x="786" y="131" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">17</text><text x="64" y="155" class="mono" font-size="13" fill="#8FA3C7">purr_level</text><rect x="250" y="144" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b3" x="250" y="144" width="301" height="12" rx="6" fill="#4A82FF"/><text class="val v3 mono" x="786" y="155" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">58%</text><text x="64" y="179" class="mono" font-size="13" fill="#8FA3C7">datacamp_courses</text><rect x="250" y="168" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b4" x="250" y="168" width="468" height="12" rx="6" fill="#2BE3DF"/><text class="val v4 mono" x="786" y="179" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">45</text><text x="64" y="203" class="mono" font-size="13" fill="#8FA3C7">cats_petted</text><rect x="250" y="192" width="520" height="12" rx="6" fill="#1D2C4D"/><rect class="bar b5" x="250" y="192" width="520" height="12" rx="6" fill="#4A82FF"/><text class="val v5 mono" x="786" y="203" font-size="13" font-weight="700" fill="#E9F1FF" style="font-family:'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace">∞</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="900" height="44" role="img" aria-labelledby="t">
+<title id="t">paw prints</title>
+<style>
+  text { font-family: 'IBM Plex Sans','Segoe UI',Arial,sans-serif; }
+  .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  .disp { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  
+  .p { opacity: 0; animation: step 6s ease-in-out infinite; }
+  @keyframes step { 0% { opacity: 0; } 6% { opacity: 1; } 55% { opacity: 1; } 68% { opacity: 0; } 100% { opacity: 0; } }
+
+  .p0 { animation-delay: 0.00s; }
+  .p1 { animation-delay: 0.45s; }
+  .p2 { animation-delay: 0.90s; }
+  .p3 { animation-delay: 1.35s; }
+  .p4 { animation-delay: 1.80s; }
+  .p5 { animation-delay: 2.25s; }
+  .p6 { animation-delay: 2.70s; }
+  .p7 { animation-delay: 3.15s; }
+  .p8 { animation-delay: 3.60s; }
+</style>
+<rect width="900" height="44" fill="none"/><g class="p p0" transform="translate(60,20) scale(0.85)" fill="#2BE3DF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p1" transform="translate(157,30) scale(0.85)" fill="#4A82FF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p2" transform="translate(254,20) scale(0.85)" fill="#2BE3DF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p3" transform="translate(351,30) scale(0.85)" fill="#4A82FF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p4" transform="translate(448,20) scale(0.85)" fill="#2BE3DF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p5" transform="translate(545,30) scale(0.85)" fill="#4A82FF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p6" transform="translate(642,20) scale(0.85)" fill="#2BE3DF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p7" transform="translate(739,30) scale(0.85)" fill="#4A82FF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g><g class="p p8" transform="translate(836,20) scale(0.85)" fill="#2BE3DF"><ellipse cx="0" cy="6" rx="7" ry="5.5"/><circle cx="-7" cy="-2" r="2.8"/><circle cx="0" cy="-5" r="2.8"/><circle cx="7" cy="-2" r="2.8"/></g>
+</svg>

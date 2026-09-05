@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t">
+<title id="t">git log: from copywriting to data engineering, rendered as a commit history.</title>
+<style>
+  text { font-family: 'Baloo 2','Trebuchet MS','Segoe UI',sans-serif; }
+  .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','SFMono-Regular',Consolas,'Courier New',monospace; }
+  .disp { font-family: Fraunces,Georgia,'Times New Roman',serif; }
+  
+  .dot { transform-box: fill-box; transform-origin: center; transform: scale(0); animation: bump 0.5s cubic-bezier(.3,1.6,.5,1) forwards; }
+  @keyframes bump { to { transform: scale(1); } }
+  .row { opacity: 0; animation: slide 0.5s ease-out forwards; }
+  @keyframes slide { from { opacity: 0; transform: translateX(-10px);} to { opacity: 1; transform: translateX(0);} }
+  .trunk { stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 2.4s ease-out 0.3s forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  .d0 { animation-delay: 0.30s; } .r0 { animation-delay: 0.40s; }
+  .d1 { animation-delay: 0.75s; } .r1 { animation-delay: 0.85s; }
+  .d2 { animation-delay: 1.20s; } .r2 { animation-delay: 1.30s; }
+  .d3 { animation-delay: 1.65s; } .r3 { animation-delay: 1.75s; }
+  .d4 { animation-delay: 2.10s; } .r4 { animation-delay: 2.20s; }
+</style>
+<rect width="900" height="262" rx="22" fill="#FFFAF0"/><text x="40" y="34" class="mono" font-size="14" fill="#82627B">$ git log --oneline careers/czekinah   <tspan fill="#D81B7F">// the plot twist, rendered as a commit history</tspan></text><line class="trunk" x1="56" y1="70" x2="56" y2="214" stroke="#F2D3E3" stroke-width="3"/><circle class="dot d0" cx="56" cy="70" r="7" fill="#FF69B4" stroke="#FF69B4" stroke-width="3"/><g class="row r0"><text x="80" y="75" class="mono" font-size="14" font-weight="700" fill="#D81B7F">f00dcat</text><text x="156" y="75" class="mono" font-size="13" fill="#D81B7F">(HEAD -&gt; data-engineering)</text><text x="374" y="75" class="mono" font-size="14" fill="#43223B">feat: FTW Foundation Batch 12 + AWS re/Start Batch 29</text></g><circle class="dot d1" cx="56" cy="106" r="7" fill="#FFFFFF" stroke="#FF69B4" stroke-width="3"/><g class="row r1"><text x="80" y="111" class="mono" font-size="14" font-weight="700" fill="#D81B7F">ac1dbee</text><text x="156" y="111" class="mono" font-size="14" fill="#43223B">learn: 45 DataCamp courses and counting</text></g><circle class="dot d2" cx="56" cy="142" r="7" fill="#FFFFFF" stroke="#FF69B4" stroke-width="3"/><g class="row r2"><text x="80" y="147" class="mono" font-size="14" font-weight="700" fill="#D81B7F">c0ffee7</text><text x="156" y="147" class="mono" font-size="14" fill="#43223B">refactor: campaigns/ -&gt; pipelines/ (breaking change, worth it)</text></g><circle class="dot d3" cx="56" cy="178" r="7" fill="#FFFFFF" stroke="#FF69B4" stroke-width="3"/><g class="row r3"><text x="80" y="183" class="mono" font-size="14" font-weight="700" fill="#D81B7F">b1gp1v0</text><text x="156" y="183" class="mono" font-size="14" fill="#43223B">fix: stop calling it a career change, call it a schema migration</text></g><circle class="dot d4" cx="56" cy="214" r="7" fill="#FFFFFF" stroke="#FF69B4" stroke-width="3"/><g class="row r4"><text x="80" y="219" class="mono" font-size="14" font-weight="700" fill="#D81B7F">7yrs4go</text><text x="156" y="219" class="mono" font-size="14" fill="#43223B">init: seven years of agency + B2B SaaS copywriting</text></g><text x="40" y="248" class="mono" font-size="12" fill="#82627B">// same curiosity. stricter syntax.</text>
+</svg>
