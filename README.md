@@ -6,7 +6,14 @@
      Light theme = creative writer mode (cream + pink)
      Every animated panel is a plain SVG in /assets. No JS, no tracking.
      Regenerate them with build_svgs.py if you change the copy.
+     The games live in the portfolio repo: czekinah.github.io/games/
      ============================================================ -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/cover-light.svg">
+  <img alt="Czekinah's purr-folio cover. A night city that scrolls in dark mode, a pink picnic sky in light mode. The cat is in both." src="assets/cover-dark.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
@@ -225,6 +232,23 @@ A very serious dashboard of very serious numbers. Feed the cat to see the metric
 
 <br>
 
+## `$ ./purr-cade`
+
+Two tiny cat games. No install, no accounts. Scores stay in your browser. Click the cabinet to play.
+
+<a href="https://czekinah.github.io/games/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arcade-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/arcade-light.svg">
+  <img alt="Purr-cade: Tabby Dash and SQL Scratching Post. Click to play at czekinah.github.io/games" src="assets/arcade-dark.svg" width="100%">
+</picture>
+</a>
+
+[![Tabby Dash](https://img.shields.io/badge/Tabby%20Dash-jump%20the%20cucumbers-2BE3DF?style=for-the-badge&labelColor=0A1120)](https://czekinah.github.io/games/)
+[![SQL Scratching Post](https://img.shields.io/badge/SQL%20Scratching%20Post-10%20questions%2C%20earn%20a%20title-FF69B4?style=for-the-badge&labelColor=0A1120)](https://czekinah.github.io/games/)
+
+<br>
+
 ## `$ ssh recruiter@purrfolio`
 
 A tiny shell for the curious. Type `help` to see what it knows.
@@ -311,6 +335,14 @@ the cat approves of you.
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=czekinah&hide_border=true&background=101B33&ring=2BE3DF&fire=5DFF87&currStreakLabel=2BE3DF&sideLabels=E9F1FF&currStreakNum=E9F1FF&sideNums=E9F1FF&dates=8FA3C7">
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=czekinah&hide_border=true&background=FFFFFF&ring=FF69B4&fire=D81B7F&currStreakLabel=D81B7F&sideLabels=43223B&currStreakNum=43223B&sideNums=43223B&dates=82627B">
   <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=czekinah&hide_border=true&background=101B33&ring=2BE3DF&fire=5DFF87&currStreakLabel=2BE3DF&sideLabels=E9F1FF&currStreakNum=E9F1FF&sideNums=E9F1FF&dates=8FA3C7">
+</picture>
+
+<!-- Contribution snake. Drawn by .github/workflows/snake.yml onto the `output` branch.
+     Shows a broken image until the workflow has run once. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/czekinah/czekinah/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/czekinah/czekinah/output/github-contribution-grid-snake.svg">
+  <img alt="A snake eating my contribution graph, one commit at a time" src="https://raw.githubusercontent.com/czekinah/czekinah/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
 <!-- Uncomment once you have a few repos with code in them:
