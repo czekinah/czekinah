@@ -149,7 +149,7 @@ def hero(t, name):
 
 <text x="40" y="190" class="sub" font-size="17" fill="{t['ink']}">One life, two render modes:</text>
 <text x="40" y="214" class="sub" font-size="17" fill="{t['ink']}">creative writer <tspan fill="{t['ink_soft']}">&amp;</tspan> data engineer in training.</text>
-<text x="40" y="246" class="mono sub2" font-size="12.5" fill="{t['ink_soft']}">// psst. I also speak SQL.  //  7+ yrs copy  ·  FTW Batch 12  ·  AWS re/Start  ·  45 DataCamp courses</text>
+<text x="40" y="246" class="mono sub2" font-size="12.5" fill="{t['ink_soft']}">// psst. I also speak SQL.  //  7+ yrs copy  ·  DR copywriter @ Amare  ·  FTW B12  ·  AWS re/Start  ·  DataCamp certified</text>
 
 {cat(t, 760, 150, 1.25)}
 """
@@ -239,9 +239,10 @@ def skills(t):
 
 # ----------------------------------------------------------------------------
 def gitlog(t):
-    W, H = 900, 262
-    commits = [("f00dcat", "(HEAD -> data-engineering)", "feat: FTW Foundation Batch 12 + AWS re/Start Batch 29"),
-               ("ac1dbee", "", "learn: 45 DataCamp courses and counting"),
+    W, H = 900, 298
+    commits = [("c3rt1fy", "(HEAD -> data-engineering)", "feat: DataCamp Associate Data Engineer, certified"),
+               ("f00dcat", "", "feat: FTW Foundation Batch 12 + AWS re/Start Batch 29"),
+               ("d1r3ct0", "", "feat: join Amare Group as DR copywriter & quality lead"),
                ("c0ffee7", "", "refactor: campaigns/ -> pipelines/ (breaking change, worth it)"),
                ("b1gp1v0", "", "fix: stop calling it a career change, call it a schema migration"),
                ("7yrs4go", "", "init: seven years of agency + B2B SaaS copywriting")]
@@ -278,7 +279,7 @@ def gitlog(t):
 def catalytics(t):
     W, H = 900, 242
     rows = [("coffee_today", "3.5 cups", 0.7), ("words_written", "2,400", 0.8), ("queries_run", "17", 0.34),
-            ("purr_level", "58%", 0.58), ("datacamp_courses", "45", 0.9), ("cats_petted", "∞", 1.0)]
+            ("purr_level", "58%", 0.58), ("datacamp_courses", "99", 0.99), ("cats_petted", "∞", 1.0)]
     body = f'<rect width="{W}" height="{H}" rx="{t["radius"]+4}" fill="{t["bg"]}"/>'
     body += card_rect(t, 40, 20, W-80, H-40)
     body += f'<circle class="led" cx="64" cy="44" r="5" fill="{t["comment"]}"/>'

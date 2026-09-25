@@ -33,11 +33,11 @@ FROM   the_right_place
 WHERE  it_actually_matters;
 ```
 
-**AI-enabled Copywriter · Content Strategist · Data Engineer in training**
+**Direct Response Copywriter & Quality Lead @ Amare Group · Data Engineer in training**
 
-I spent 7+ years writing for a living: taglines, TV and radio scripts, SEO content, and B2B SaaS copy across digital agencies, creative advertising, and an AI verification platform. Along the way I discovered that code and copy both live and die by structure.
+Seven years of writing for a living: taglines, TV and radio scripts, SEO articles, B2B SaaS copy. Today I write the ads for Zenith and Luxi and review every line the creative team ships. On Fridays and Saturdays I'm a scholar twice over, learning to build the pipelines behind the numbers I used to chase.
 
-So now I'm learning to build the systems behind the words: data pipelines, warehouses, and databases designed to mirror how a living, breathing business actually operates.
+The long version, with a cat that walks the trail with you: [czekinah.github.io](https://czekinah.github.io/)
 
 > *"I built structures for stories for seven years. Rows and columns are just stricter paragraphs."*
 
@@ -53,10 +53,12 @@ So now I'm learning to build the systems behind the words: data pipelines, wareh
 
 **`status --now`**
 
-* Data Engineering Scholar at **FTW Foundation** (Batch 12): SQL, data modeling, and Databricks, one Saturday at a time
-* **AWS re/Start** Scholar (Batch 29 · PHMAN29): cloud computing fundamentals with AWS
-* Keeping a daily **DataCamp** streak, 45 courses completed and counting
-* Writing about the journey on [LinkedIn](https://www.linkedin.com/in/czekinah/), one post per week of the program
+* **Amare Group Inc.**: Direct Response Copywriter & Quality Lead for [Zenith](https://tryzenith.ph/) and [Luxi](https://tryluxi.ph/), since July 2026. Hooks, scripts, landing pages and Klaviyo emails in Taglish, plus the quality gate on everything the team ships
+* **FTW Foundation** Batch 12, with Accenture: SQL, data modeling, Databricks and dbt, one Saturday at a time
+* **AWS re/Start** Batch 29 (PHMAN29): 43 labs done, 72 knowledge checks at 100%
+* **DataCamp Associate Data Engineer**, certified September 2026, after 99 courses
+* Next exam: **Databricks Data Engineer Associate**, October 17, 2026. I built [Road to Purr-fection](https://czekinah.github.io/databricks-de-associate-reviewer/) so the whole batch can study with a cat
+* Writing about it every week on [LinkedIn](https://www.linkedin.com/in/czekinah/), and keeping the messy version in [ftw-de-journal](https://github.com/czekinah/ftw-de-journal)
 
 <br>
 
@@ -86,10 +88,13 @@ So now I'm learning to build the systems behind the words: data pipelines, wareh
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Spark SQL](https://img.shields.io/badge/Spark%20SQL-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Writing & marketing stack (7+ years):**
+**Writing & marketing stack (7+ years, now direct response):**
 
+![Direct Response](https://img.shields.io/badge/Direct%20Response-D81B7F?style=for-the-badge)
+![Klaviyo](https://img.shields.io/badge/Klaviyo-0B0B0B?style=for-the-badge)
 ![SEO & AEO](https://img.shields.io/badge/SEO%20%26%20AEO-4A154B?style=for-the-badge)
 ![Webflow](https://img.shields.io/badge/Webflow-4353FF?style=for-the-badge&logo=webflow&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
@@ -99,9 +104,9 @@ So now I'm learning to build the systems behind the words: data pipelines, wareh
 
 <br>
 
-## `$ cat certs/datacamp.log | wc -l` → **45**
+## `$ cat certs/datacamp.log | wc -l` → **99**
 
-**45 DataCamp courses completed**, from *Introduction to Python* (the first) to *Building Scalable Agentic Systems*. Click a folder to open it.
+**99 DataCamp courses completed** and the **Associate Data Engineer** certification, from *Introduction to Python* (the first) to *Building Scalable Agentic Systems*. The folders below are the ones worth opening. Click one.
 
 <!-- Update this section as you finish new courses.
      Tip: DataCamp, My Activity, Completed tab is your source of truth. -->
@@ -262,6 +267,7 @@ welcome to purrfolio-sh v1.0 (meow-stable)
 
   whoami        who is this person
   ls projects/  what she is building
+  cat quests    the side quests
   cat contact   how to reach her
   pet           pet the cat
 ```
@@ -272,9 +278,10 @@ welcome to purrfolio-sh v1.0 (meow-stable)
 
 ```
 Czekinah Tolentino
-Copywriter for 7+ years (agencies, B2B SaaS, an AI verification platform).
-Data engineer in training (FTW Foundation Batch 12, AWS re/Start Batch 29).
-Based in the Philippines. Open to freelance and full-time.
+Direct Response Copywriter & Quality Lead @ Amare Group (Zenith, Luxi).
+Copywriter for 7+ years (Ogilvy, Xiklab Digital, Straker).
+Data engineer in training (FTW Foundation B12, AWS re/Start B29).
+DataCamp Associate Data Engineer. Metro Manila. Open to freelance and collaborations.
 ```
 
 </details>
@@ -284,10 +291,27 @@ Based in the Philippines. Open to freelance and full-time.
 <br>
 
 ```
-herding_the_data/            [BUILDING]   cat shelter ETL: raw CSVs in, warehouse tables out
+road_to_purr_fection/        [SHIPPED]    databricks DE associate reviewer, 91 questions, for the batch
+instacart_pipeline/          [IN REVIEW]  bronze → silver → gold → dashboard on Databricks
+chinook_dimensional_model/   [PRESENTED]  star schema, defended in class
+nyc_mobility_dbt/            [IN PROGRESS] first dbt run, green
+aws_restart_labs/            [SHIPPED]    43 labs, 7 write-ups
 campaign_metrics_warehouse/  [DESIGNING]  seven years of campaign results as a star schema
-sql_scratching_post/         [DAILY]      one query drill a day keeps the rust away
-week6-instacart-pipeline/    [IN REVIEW]  bronze → silver → gold → dashboard on Databricks
+```
+
+</details>
+
+<details>
+<summary><code>czekinah@purrfolio:~$ cat quests</code></summary>
+<br>
+
+```
+rotaract   Rotaract Club of Muntinlupa Central, 2018-2022
+           public image director -> secretary -> president
+           rotary international asia-pacific regional award, 2021-22
+podcast    Girls Who, ep. 005 "Girls Who Advocate" (sep 2022)
+guilds     Gamer Girls Philippines, Girls Who Games
+red cross  Philippine Red Cross Manila Chapter, 2014
 ```
 
 </details>
@@ -301,6 +325,7 @@ linkedin : https://www.linkedin.com/in/czekinah/
 behance  : https://www.behance.net/czekinah
 email    : tolentino.czekinah@gmail.com
 site     : https://czekinah.github.io/
+reviewer : https://czekinah.github.io/databricks-de-associate-reviewer/
 ```
 
 </details>
@@ -357,7 +382,7 @@ the cat approves of you.
 
 ## `$ ./say_hi --channel=any`
 
-For campaigns, content, or a chat about the writer-to-data plot twist.
+For campaigns, content, data work, or a chat about the writer-to-data plot twist.
 `// recruiter-friendly. cat-approved. responds faster than a cold pipeline.`
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-czekinah-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/czekinah/)
